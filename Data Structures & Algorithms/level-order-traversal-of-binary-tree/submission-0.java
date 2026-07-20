@@ -30,7 +30,7 @@ class Solution {
             for(int i=0;i<size;i++)
             {
                 TreeNode curr=queue.poll();
-                temp.add(curr.val);;
+                temp.add(curr.val);
                 if(curr.left!=null)
                 {
                     queue.offer(curr.left);
